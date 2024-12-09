@@ -1,5 +1,6 @@
 import { SignInButton, SignUpButton } from "@clerk/nextjs";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 type Props = {};
 
@@ -13,17 +14,17 @@ function Navbar({}: Props) {
             alt="musclegrow-logo"
             className="w-10 cursor-pointer"
           />
-          <a href="#" className="text-lg font-bold">
+          <a href="/" className="text-lg font-bold">
             MuscleGrow
           </a>
         </div>
-        <a href="#" className="hover:text-gray-500">
+        <a href="/" className="hover:text-gray-500">
           Home
         </a>
-        <a href="#" className="hover:text-gray-500">
+        <a href="#Products" className="hover:text-gray-500">
           Products
         </a>
-        <a href="#" className="hover:text-gray-500">
+        <a href="#About-us" className="hover:text-gray-500">
           About us
         </a>
         <a href="#" className="hover:text-gray-500">
