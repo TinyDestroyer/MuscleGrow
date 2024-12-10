@@ -27,7 +27,7 @@ function Navbar({}: Props) {
         <a href="#About-us" className="hover:text-gray-500">
           About us
         </a>
-        <a href="#" className="hover:text-gray-500">
+        <a href="#footer" className="hover:text-gray-500">
           Contact
         </a>
       </div>

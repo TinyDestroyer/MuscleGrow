@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import Cards from "@/components/Cards";
 import { MoveRight } from "lucide-react";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const Card = [
@@ -186,6 +187,9 @@ export default function Home() {
             </p>
           </div>
         </div>
+      </div>
+      <div id="footer">
+        <Footer />
       </div>
     </>
   );
